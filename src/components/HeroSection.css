@@ -44,7 +44,7 @@
 .hero-content {
   position: relative;
   z-index: 2; /* Content stays on top of the video */
-  padding: 16px;
+  padding: 20px;
   max-width: 900px;
 }
 
@@ -52,7 +52,7 @@
   font-family: var(--font-heading-secondary);
   font-size: 22px;
   font-weight: 600;
-  margin: -12px 0 24px 0;
+  margin: -15px 0 30px 0;
   color: #FFFFFF;
   text-shadow:
     -1px -1px 0 #000,
@@ -64,9 +64,9 @@
 
 .hero-main-title {
   font-family: var(--font-heading-primary);
-  font-size: clamp(36px, 5vw, 60px);
+  font-size: 64px;
   font-weight: 700;
-  margin: 0 0 14px 0;
+  margin: 0 0 18px 0;
   color: #FFFFFF;
 }
 
@@ -75,7 +75,7 @@
   color: var(--background-primary);
   border: 2px solid var(--accent-gold);
   border-radius: 30px;
-  padding: 13px 30px;
+  padding: 15px 35px;
   font-family: var(--font-heading-secondary);
   font-size: 18px;
   font-weight: 700;
@@ -104,7 +104,7 @@
     font-size: 18px;
   }
   .hero-cta-button {
-    padding: 11px 26px;
+    padding: 12px 30px;
     font-size: 16px;
   }
 }
@@ -115,11 +115,5 @@
   }
   .hero-sub-text {
     font-size: 16px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .hero-main-title {
-    white-space: nowrap;
   }
 }

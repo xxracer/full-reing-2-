@@ -58,18 +58,6 @@
   transform: translateX(-50%);
 }
 
-.navbar-logo a {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.navbar-logo img {
-  height: 32px;
-  width: auto;
-  display: block;
-}
-
 .navbar-contact {
   margin-right: 20px;
   font-family: var(--font-heading-secondary);
@@ -187,10 +175,6 @@
     position: static;
     transform: none;
     text-align: left;
-  }
-
-  .navbar-logo img {
-    height: 26px;
   }
   .navbar-contact {
     display: none;

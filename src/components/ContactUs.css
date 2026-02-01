@@ -1,7 +1,7 @@
 /* src/components/ContactUs.css */
 
 .contact-us-section {
-  padding: 65px 20px;
+  padding: 80px 20px;
   background-color: var(--background-secondary);
 }
 
@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
-  gap: 48px;
+  gap: 60px;
   max-width: 1000px;
   margin: 0 auto;
 }

@@ -77,13 +77,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-logo">
-        <Link to="/">
-          <img
-            src="https://static.wixstatic.com/media/285fa5_54737d2a46754cc5abc786ca8447555d~mv2.png/v1/fill/w_512,h_516,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo_R_only_final_logo_round.png"
-            alt="Reign Jiu-Jitsu"
-          />
-          REIGN JIU JITSU
-        </Link>
+        <Link to="/">REIGN JIU JITSU</Link>
       </div>
       <div className="navbar-right">
         <div className="navbar-contact">
