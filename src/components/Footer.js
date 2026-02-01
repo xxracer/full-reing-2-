@@ -16,10 +16,24 @@ const Footer = () => {
           <a href="/about">About</a>
           <a href="/blog">Blog</a>
         </div>
-        <div className="footer-copyright">
-          &copy; {new Date().getFullYear()} Reign Jiu Jitsu. All rights reserved.
-          <div className="footer-credits">
-            Made By <a href="https://ilptechnology.com/" target="_blank" rel="noopener noreferrer">ILP Technologys</a>
+        <div className="footer-bottom">
+          <div className="footer-logo footer-logo-google">
+            <img
+              src="https://static.wixstatic.com/media/c5947c_9a7f167bc24a48f2b049b879d1cd9f66~mv2.png"
+              alt="Google Reviews"
+            />
+          </div>
+          <div className="footer-copyright">
+            &copy; {new Date().getFullYear()} Reign Jiu Jitsu. All rights reserved.
+            <div className="footer-credits">
+              Made By <a href="https://ilptechnology.com/" target="_blank" rel="noopener noreferrer">ILP Technologys</a>
+            </div>
+          </div>
+          <div className="footer-logo footer-logo-badge">
+            <img
+              src="https://assets.voterfly.com/resources/property/59/best_of_katy_logo_150.png?v=1026331727"
+              alt="Best of Katy"
+            />
           </div>
         </div>
       </div>

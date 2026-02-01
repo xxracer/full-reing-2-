@@ -1,14 +1,14 @@
 /* src/components/Programs.css */
 
 .programs-section {
-  padding: 80px 20px;
+  padding: 65px 20px;
   background-color: var(--background-secondary);
 }
 
 .programs-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 40px;
+  gap: 32px;
   max-width: 1200px;
   margin: 0 auto;
 }
