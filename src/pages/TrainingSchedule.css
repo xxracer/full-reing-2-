@@ -25,15 +25,15 @@
 }
 
 .schedule-day {
-    background: #ffffff;
+    background: var(--background-secondary);
     border-radius: 12px;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
     overflow: hidden;
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border-light-gray);
 }
 
 .schedule-day h2 {
-    background: var(--text-charcoal);
+    background: var(--accent-gold);
     color: var(--background-primary);
     padding: 16px 20px;
     font-size: 20px;
@@ -48,7 +48,7 @@
 
 .schedule-session {
     padding: 16px 20px;
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    border-top: 1px solid var(--border-light-gray);
 }
 
 .schedule-session:first-of-type {
@@ -111,7 +111,7 @@
 }
 
 .schedule-cta a {
-    color: #dc3b30;
+    color: var(--accent-gold);
     font-weight: 600;
 }
 

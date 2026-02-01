@@ -12,7 +12,7 @@
   justify-content: center;
   text-align: center;
   padding: 100px 20px;
-  background-color: #f1f1f1; /* Light grey background for hero */
+  background-color: var(--background-secondary);
   background-size: cover;
   background-position: center;
 }
@@ -100,18 +100,18 @@
 }
 
 .scrolled .program-page {
-    background-color: var(--text-charcoal);
-    color: var(--background-primary);
+    background-color: var(--background-primary);
+    color: var(--text-charcoal);
 }
 
 .scrolled .program-hero {
-    background-color: #1a1a1a;
+    background-color: var(--background-secondary);
 }
 
 .scrolled .program-hero-title,
 .scrolled .program-details-text h2,
 .scrolled .benefit-item h3 {
-    color: var(--background-primary);
+    color: var(--text-charcoal);
 }
 
 /* --- Mobile Responsiveness --- */

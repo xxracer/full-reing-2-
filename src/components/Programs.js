@@ -94,7 +94,7 @@ const Programs = () => {
                 />
               </div>
             ) : (
-              <div className="program-image-wrapper skeleton-loader" style={{ height: '200px', backgroundColor: '#e0e0e0' }}></div>
+              <div className="program-image-wrapper skeleton-loader" style={{ height: '200px', backgroundColor: 'var(--background-secondary)' }}></div>
             )}
             <div className="program-content">
               <h3 className="program-title">{program.title}</h3>

@@ -3,7 +3,7 @@
 .site-footer {
   padding: 40px 20px;
   background-color: var(--background-primary);
-  border-top: 1px solid #eee;
+  border-top: 1px solid var(--border-light-gray);
 }
 
 .footer-container {
@@ -37,7 +37,7 @@
 }
 
 .footer-links a:hover {
-  color: var(--text-dark-gray);
+  color: var(--accent-gold);
 }
 
 .footer-copyright {
@@ -48,8 +48,7 @@
 
 .footer-credits {
   font-size: 10px;
-  color: #64b5f6;
-  /* Light blue tone */
+  color: var(--accent-gold);
   margin-top: 8px;
   font-weight: 300;
 }

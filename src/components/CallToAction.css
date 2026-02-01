@@ -21,15 +21,15 @@
 .cta-text {
   font-family: var(--font-body);
   font-size: 18px;
-  color: var(--text-dark-gray);
+  color: var(--text-medium-gray);
   margin-bottom: 30px;
   line-height: 1.6;
 }
 
 .cta-button {
-  background-color: var(--text-charcoal);
+  background-color: var(--accent-gold);
   color: var(--background-primary);
-  border: 2px solid var(--text-charcoal);
+  border: 2px solid var(--accent-gold);
   border-radius: 30px;
   padding: 15px 35px;
   font-family: var(--font-heading-secondary);
@@ -40,6 +40,6 @@
 }
 
 .cta-button:hover {
-  background-color: var(--background-primary);
-  color: var(--text-charcoal);
+  background-color: transparent;
+  color: var(--accent-gold);
 }
